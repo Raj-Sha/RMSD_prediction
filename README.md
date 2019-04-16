@@ -1,10 +1,8 @@
 # RMSD_prediction
 Predicting protein 3D structures without crystalization has been a challenging problem. Chemical, physical, and biological properties are the determinants of protein folding under specific solvent environments. A lot of problems involves in predicting a protein's native structure such as secondary structure arrangment and misfolding tertiary structures because the protein is not folded in solvent conditions. This research helps to determine whether the predicted proteins are structurally similar to the native, folded proteins based on six experimental factors. The Root Mean Square Deviation (RMSD) is the squareroot of the sum of all distance's changes between matched pairs of  𝐶𝛼  in two superimposed protein sequences.
 
-𝑅𝑀𝑆𝐷=∑𝑁𝑖=1(𝑝𝑖−𝑞𝑖)2𝑁⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯√ 
-where  𝑝𝑖,𝑞𝑖  are coordinate positions of matched pairs of  𝐶𝛼  in the modelled protein, and its native one, respectively.
-
 There are six physical and chemical properties1 that can be used to predict the RMSD of a protein.
+
 Total surface area (Area): the total surface area of a protein that is exposed to the solvent after the protein is fully folded. The surface area of a protein is dependent on the amino acids which ultimately bury the hydrophobic core.
 
 Euclidean Distance (ED):  𝐶𝛼 's positions were restricted when interacting with neighborhood  𝐶𝛼  in a folded protein 2 . The sum of distance between each pair of  𝐶𝛼  in a single protein is computed as ED.
